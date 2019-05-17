@@ -11,6 +11,9 @@
     display: block;
     margin: 0 auto 15px;
 }
+body{
+    width: 100%;
+}
 a:focus { outline: 0 solid }
 img {
     max-width: 100%;
@@ -122,6 +125,9 @@ a:hover { text-decoration: none }
 .padding{
     padding: 150px 0px 20px 0px;
 }
+.protfolio-area h1{
+    color:#444;
+}
 .protfolio-items{
     display: flex;
     flex-wrap: wrap;
@@ -143,7 +149,7 @@ a:hover { text-decoration: none }
 }
 .s-items{
  margin:25px;
- border-radius:100%;
+ border-radius:50%;
  height: 175px;
  width: 170px;
  margin-bottom: 30px;
@@ -211,4 +217,219 @@ a:hover { text-decoration: none }
 }
 .s-items:hover .img-hover{
     transform: scale(1);
+}
+.about-us{
+     background: #16a086;
+     padding:50px 0px;
+
+}
+.section-title{
+    color: #fff;
+}
+.all-member-details{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.member{
+    margin:25px;
+    width: 280px;
+    background: #fff;
+        border-radius: 3px;
+}
+.m-img{
+    position: relative;
+}
+.member-hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transition: 0.5s ease-in-out 0s;
+
+}
+.member-hover a{
+    font-size: 30px;
+    padding:0 20px;
+    color: #fff;
+    position: relative;
+
+
+}
+.member-hover a:before{
+    content: "";
+    position: absolute;
+    background:#16A086;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+.m-img img{
+    width: 100%;
+}
+.member:hover .member-hover{
+    transform: scale(1);
+}
+.img-desc{
+    text-align: center;
+    padding: 10px 20px;
+}
+.img-desc p{
+    text-align:left;
+}
+
+.badge{
+ background:#28A745; 
+}
+.contact-us{
+    padding:80px 0px;
+}
+.conatact{
+    color:#444;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.form input{
+    width:48%;
+    padding: 10px;
+}
+.form input{
+    margin: 10px 0px;
+}
+.form textarea{
+    padding: 10px;
+    height:150px;
+    width: 100%;
+    display: block;
+    resize: none;
+}
+.form button{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    background: #16A086;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+.form button:hover{
+    color: #444;
+    background-color: transparent;
+    outline:2px solid #16A086;
+}
+.contact-details{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.contact-details p.address{
+    position: relative;
+}
+.contact-details p.address span{
+    margin-left:20px;
+    display: block;
+}
+.contact-details p.address:before{
+    content: "\f041";
+    font-family: FontAwesome;
+    position: absolute;
+
+}
+.contact-details p.phone{
+    position: relative;
+}
+.contact-details p.phone span{
+    margin-left:20px;
+    display: block;
+}
+.contact-details p.phone:before{
+    content: "\f098";
+    font-family: FontAwesome;
+    position: absolute;
+
+}
+.contact-details p.email{
+    position: relative;
+}
+.contact-details p.email span{
+    margin-left:20px;
+    display: block;
+}
+.contact-details p.email:before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    position: absolute;
+
+}
+.contact-details p.fax{
+    position: relative;
+}
+.contact-details p.fax span{
+    margin-left:20px;
+    display: block;
+}
+.contact-details p.fax:before{
+    content: "\f1ac";
+    font-family: FontAwesome;
+    position: absolute;
+
+}
+.footer-area{
+    background-color: #2D3E50;
+    height: 90px;
+}
+.footer .footer-left{
+    margin-top: 40px;
+}
+.footer .footer-left p{
+    color:#FFFFFF;
+}
+.footer .footer-right a{
+    color: #fff;
+    padding: 40px 10px;
+
+}
+.footer .footer-right{
+    margin-top: 22px;
+    margin-right: 20px;
+    background-color: #1BBC9B;
+    padding: 10px 5px;
+}
+
+footer{
+    padding: 20px;
+    background: #2D3E50;
+}
+.footer-items{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px ;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.footer-icon a{
+    background: #16A086;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

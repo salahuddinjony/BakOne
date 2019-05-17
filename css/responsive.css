@@ -5,6 +5,9 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .navbar-nav{
+ 	padding-right: 20px;
+ }
  .s-items{
  margin:25px;
  border-radius: 50%;
@@ -26,12 +29,21 @@
 .padding{
     padding: 120px 0px 20px 0px;
 }
+.form input,textarea{
+    margin:10px 0px;
+    border: 1px solid grey;
+}
+
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
  .navbar-collapse{
     margin-top: 20px;
+}
+.navbar{
+    padding:20px;
+    margin: 0;
 }
 .nav a:hover::before {
   width:0%;
@@ -40,6 +52,9 @@
    display: flex;
    justify-content:space-between;
    align-items: center;
+}
+.welcome-section{
+	margin-top:90px;
 }
 .welcome-text p{
     font-size:15px;
@@ -72,6 +87,11 @@
  overflow:hidden;
  position: relative;
 }
+.form button{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
 .img-hover h3{
 	font-size:15px;
  
@@ -83,7 +103,13 @@
 .padding{
     padding:120px 0px 20px 0px;
 }
-
+.contact-us{
+	padding: 20px;
+}
+.form input,textarea{
+    margin:10px 0px;
+    border: 1px solid grey;
+}
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
