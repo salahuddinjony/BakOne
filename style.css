@@ -58,6 +58,7 @@ a:hover { text-decoration: none }
 .navbar-nav li a{
     position: relative;
     font-size:18px;
+    text-transform: uppercase;
     /*color:black !important;*/
 }
 .nav a::before {
